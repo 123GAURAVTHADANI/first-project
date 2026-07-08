@@ -1,0 +1,75 @@
+.figma-ai-page {
+  min-height: 100vh;
+  width: 100%;
+  background: #4d49fc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.figma-ai-hero {
+  width: 100%;
+  max-width: 1280px;
+  padding: 0 128px;
+  box-sizing: border-box;
+}
+
+.figma-ai-hero__content {
+  max-width: 512px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.figma-ai-hero h1 {
+  font-family: "Inter", system-ui, sans-serif;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 72px;
+  margin: 0;
+  color: #ffffff;
+}
+
+.figma-ai-hero p {
+  font-family: "Inter", system-ui, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  margin: 0;
+  color: #f3ffe3;
+}
+
+.figma-ai-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #000000;
+  text-decoration: none;
+  font-family: "Inter", system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.figma-ai-button__icon {
+  font-size: 24px;
+  line-height: 24px;
+}
+
+@media (max-width: 768px) {
+  .figma-ai-hero {
+    padding: 48px 24px;
+  }
+
+  .figma-ai-hero h1 {
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  .figma-ai-hero p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}

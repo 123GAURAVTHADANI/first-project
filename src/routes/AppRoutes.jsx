@@ -8,8 +8,7 @@ import Parent from "../pages/Parent";
 function AppRoutes() {
   return (
     <Routes>
-      <Route path="/" element={<Parent />} />
-      <Route path="/home" element={<Home />} />
+      <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/career" element={<Career />} />
     </Routes>
